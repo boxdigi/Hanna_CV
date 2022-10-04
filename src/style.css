@@ -1,40 +1,82 @@
 body .container {
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 900px;
+  width: 794px;
+  height: 1123px;
   display: block;
   margin: 0 auto;
-  padding: 25px;
+  border: 1px solid darkgrey;
+  padding: 0;
 }
 
-header,
-main,
-footer {
-  padding: 20px;
+header {
+  background-color: rgb(94, 94, 94);
+  color: white;
+}
+
+.hero {
+  background-color: white;
+  margin-left: 30px;
+  padding: 15px;
+  border: 1px solid white;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 3px;
+}
+
+.hero h4 {
+  color: rgb(107, 107, 112);
+}
+
+.hero h1 {
+  color: black;
+}
+
+.contact {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact a {
+  color: white;
+}
+
+main {
+  padding: 35px 25px 10px;
 }
 
 footer {
+  padding: 15px;
   font-size: 13px;
 }
 
 h1,
 h2,
 h3 {
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 p {
   margin-bottom: 2px;
+}
+
+.text-color {
+  color: rgb(107, 107, 112);
 }
